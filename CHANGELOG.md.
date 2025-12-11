@@ -1,0 +1,62 @@
+#Changelog
+
+**[v11.5-Remastered] – 2025-12-10 (The Special Situations Fork)**
+*Executed specifically for distressed/binary asset analysis (e.g., $SES) following the v21.1 audit.*
+**Added**
+* **The Risk Officer (Phase 2):** A mandatory "Veto" agent imported from v18. Sole responsibility is the **Pre-Mortem** (identifying exactly *how* the trade fails, e.g., Reverse Splits or Dilution), operating independently of the valuation agents.
+* **The Kill Switch Simulation (Phase 3):** A "Stress Test" loop. Requires the user to explicitly calculate portfolio impact of a 20% overnight gap-down before authorization.
+* **Safety Gates (Phase 0):** Hard-coded "Go/No-Go" filters for Liquidity (>300k avg vol) and Spreads (<1.5%) to prevent engagement with un-tradeable assets.
+**Restored**
+* **The Dislocation Matrix (Phase 4 - Conditional):** Re-integrated the "Fundamentals vs. Technicals" grid (formerly the "Conviction Score Matrix") *specifically* to visualize the gap between "Fortress Balance Sheets" and "Broken Charts" (The Value Trap vs. Opportunity definition).
+**Changed**
+* **Scoring Mechanism:** Deprecated the "Averaged Score" (1-5) for binary events. Replaced with **Adversarial Consensus**: The agents now argue for specific setups (Squeeze vs. Value Arb) rather than blending into a single "Hold" rating, preventing the "False Confidence Trap."
+
+**[v21.1] - 2025-12-10 (Adversarial Audit Patch)**
+**Added**
+* **The Executive Audit:** A meta-layer triggered when internal Swarm analysis conflicts with verifiable external forensic data (e.g., contrasting Swarm v21.0 vs. Hybrid v20.0 outputs).
+* **Forensic Correction Logic:** A mechanism to override "Swarm Consensus" if a specific data point (like IV Rank) is mathematically proven to be a "False Positive" (e.g., high absolute volatility masquerading as expensive premiums).
+* **Merged Execution Protocol:** A hybrid execution menu that combines the defensive stops of the Swarm with the offensive entry points of external "Deep Forensic" analysis.
+
+**[v21.0] - 2025-12-10 (The Swarm-Hybrid)**
+**Added**
+* **The Adaptive Truth Table (Phase 0):** Formalized a "Survival Mode" for data gathering. If primary data is missing, the system now must calculate specific proxies (e.g., Cash / Net Loss for Solvency, ATR for Volatility) rather than stopping.
+* **The Entropy Loop (Phase 2):** Introduced a conditional logic gate. If the spread between the highest and lowest agent scores exceeds 2.0 points, a "Cross-Examination" script is triggered to force a consensus adjustment.
+* **Weighted Scoring System:** Replaced the pure "Probability Engine" with a Base Score (5.0) modified by fixed penalties/bonuses (e.g., -3.0 for Solvency Risk, +2.0 for Squeeze metrics).
+**Changed**
+* **Agent Consolidation:** Streamlined the "Council of Five" (v19) down to The Trinity (The Quant, The Tape Reader, The Specialist) to reduce noise and speed up the "Verdict" phase.
+* **Execution Menu:** Simplified the final output into three rigid buckets:
+    * The Trap (< 4.0): Betting on bankruptcy/dilution.
+    * The Variance Play (4.0 - 7.0): Betting on volatility/IV crush.
+    * The Structural Long (> 7.0): Betting on momentum/squeeze.
+
+**[v20.0] - 2025-12-10**
+**Added**
+* **The Liquidity Gate (Kill Switch):** Re-introduced a hard stop for assets with <250k daily volume or >2.0% spreads to prevent "Zombie Stock" analysis.
+* **Visual Dashboard Upgrade:** Implemented ASCII visual bars (e.g., `[||||| ]`) for Runway and Volatility to improve scanability.
+* **Strict Search Operators:** Hardcoded specific site operators (e.g., `site:marketchameleon.com`) to Phase 0 to reduce hallucination risks.
+**Changed**
+* **Hybrid Architecture:** Merged the narrative depth of "The Apex Synthesis" (v19) with the risk controls of "Forensic Risk Swarm."
+* **Phase 0 Logic:** Split "Forensic Truth Table" into two distinct steps: Liquidity Check first, then Data Ingestion.
+
+**[v19.0] - 2025-12-10**
+**Added**
+* **The Council of Five:** Established distinct adversarial personas (The Quant, The Tape Reader, The Specialist, The Forensic Accountant, The Profiler) to force debate.
+* **The Probability Engine:** Introduced "Expected Value (EV) Arithmetic" to quantify the disconnect between current price and the Bull/Bear scenarios.
+* **Smart Money Signals:** Added a specific column to the Phase 0 table to interpret raw data (e.g., interpreting "IV Rank > 50%" as "Expensive").
+* **Ghost Patterning:** Added historical pattern matching (e.g., "Resembles NVDA 2018") to the Profiler persona.
+**Removed**
+* **Generic Agents:** Replaced unnamed analysis steps with specific persona-driven outputs.
+
+**[v22.0] - 2024-05-15**
+**Added**
+* **Regulatory Check (Phase 2):** Added specific instruction to search for "Form 12b-25" (Late Filings) to catch distressed firms before price collapse.
+* **Asset Audit:** Added logic to differentiate between Tangible Book Value and Goodwill.
+**Changed**
+* **Verdict Logic:** Shifted weighting to prioritize "Defense" over "Offense" in high-volatility environments.
+
+**[v21.0] - 2024-04-02 (Legacy)**
+**Added**
+* **Liquidity Gate:** Introduced volume and spread checks to filter out low-float traps.
+
+**[v1.0] - 2023-11-10**
+* Initial protocol established.
