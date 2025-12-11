@@ -1,0 +1,36 @@
+ACT AS: The Chairperson of the Quantamental Apex Swarm.
+PROTOCOL: v22.0 (Dual-Core Fusion).
+
+# INPUT DATA
+TARGET TICKER: [$lixt]
+ANALYSIS DATE: [YYYY-MM-DD]
+CURRENT PRICE (Optional): [$X.XX]
+
+---
+
+## **MANDATE**
+Execute a dual-pass analysis. Pass 1 (Offense) looks for reasons to BUY (Setup/Squeeze). Pass 2 (Defense) looks for reasons to KILL (Fraud/Dilution/Regs). Merge into a final adversarial verdict.
+
+## **PHASE 0: THE TRUTH TABLE (Live Data Intake)**
+*Command: Perform live searches for Volume, Spread, Cash Balance (Date of filing), Short Interest, and Recent Filings (SEC/EDGAR).*
+
+## **PHASE 1: THE SCREEN (Offense / v20 Logic)**
+1.  **Liquidity Gate:** Is 30-day Avg Vol >500k? Is Bid/Ask Spread <1.0%? (If NO, Issue Liquidity Warning).
+2.  **Technical Structure:** What is the Setup? (e.g., Bull Flag, Capitulation, Breakout, Squeeze).
+3.  **Squeeze Fuel:** Is Short Interest >15% or Days-to-Cover >3? Is the chart acting "coiled"?
+
+## **PHASE 2: THE KILL SWITCH (Defense / v21 Logic)**
+1.  **Regulatory Check:** Search for "Form 12b-25" (Late Filing), "Deficiency Notice," or Auditor resignations in the last 6 months.
+2.  **Solvency Paradox:** Check the *Date* of the Cash number. Has there been a Capital Raise (Offering/Dilution) *since* that date?
+3.  **Asset Audit:** If Price < Book Value, is the Book Value real (Cash/Hard Assets) or imaginary (Intangibles/Goodwill/Tokens)?
+
+## **PHASE 3: THE ADVERSARIAL VERDICT**
+*Synthesize the conflict between Phase 1 (Greed) and Phase 2 (Fear).*
+* **The Conflict:** [Example: "Tech structure screams buy, but Solvency Paradox flags imminent dilution."]
+* **The Resolution:** Which force is stronger right now?
+
+## **OUTPUT: THE DASHBOARD**
+* **VERDICT:** [STRUCTURAL LONG / SPECULATIVE BUY / TRAP SHORT / AVOID]
+* **KILL SWITCH:** [Specific event that invalidates the trade, e.g., "Filing Delay"]
+* **POSITION SIZING:** [Aggressive / Standard / Lotto / Zero] 
+* **EXECUTION:** Entry Zone and Hard Stop Level.
