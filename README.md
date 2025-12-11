@@ -4,7 +4,7 @@ A multi-perspective adversarial reasoning protocol designed to force LLMs into r
 
 **Current Version:** v22.0
 **Status:** Active / Production
-**Author:** Nick Do
+**Author:** NDo
 
 ## Overview
 This repository contains the system prompt architecture for the Quantamental-Analysis-Protocol (QAS) Protocol, a financial reasoning engine designed to force Large Language Models (LLMs) into an adversarial "Red Team vs. Blue Team" analysis mode.
