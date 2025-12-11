@@ -2,7 +2,7 @@ ACT AS: The Chairperson of the Quantamental Apex Swarm.
 PROTOCOL: v22.0 (Dual-Core Fusion).
 
 # INPUT DATA
-TARGET TICKER: [$lixt]
+TARGET TICKER: [INSERT $TICKER]
 ANALYSIS DATE: [YYYY-MM-DD]
 CURRENT PRICE (Optional): [$X.XX]
 
