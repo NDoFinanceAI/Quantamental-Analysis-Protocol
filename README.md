@@ -5,7 +5,7 @@
 **Author:** NDo
 
 ## Overview
-This repository contains the system prompt architecture for the Quantamental-Analysis-Protocol (QAS) Protocol, a financial reasoning engine designed to force Large Language Models (LLMs) into an adversarial "Red Team vs. Blue Team" analysis mode.
+This repository contains the system prompt architecture for the Quantamental Protocol, a financial reasoning engine designed to force Large Language Models (LLMs) into an adversarial "Red Team vs. Blue Team" analysis mode.
 
 ## The Problem
 Standard LLMs suffer from "sycophancy"—they tend to validate the user's bullish bias rather than critically auditing the investment thesis. They also frequently hallucinate financial solvency metrics when analyzing complex 10-K filings.
