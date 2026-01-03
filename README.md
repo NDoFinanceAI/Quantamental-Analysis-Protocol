@@ -1,7 +1,7 @@
 # Quantamental Apex Swarm (QAS) Protocol
 
 **Current Version:** v22.0
-**Status:** Active / Production
+**Status:** Inactive / Logic integrated into v30
 **Author:** NDo
 
 ## Overview
